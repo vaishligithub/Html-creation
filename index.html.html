@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice HTML</title>
+</head>
+<body>
+    <header>
+        <P>&#128525</P>
+        <P>Hey I am <b style="background-color: aquamarine;">Vaishali  Verma</b> <Em>&hearts;</Em>and this is my html practice project</p>
+        <p>xI am quite excited about this in this project I tried to use all things whatever I learnt.
+    Hope this would standout on my expectations.</P>
+    <P>Lorem ipsum dolor lorem sit amet, <i>consectetur adipisicing elit </i>. Odio quos natus atque eaque. Eos, veritatis ipsam temporibus facere libero doloremque voluptas architecto. Iure quos sint, consectetur odio quod repellat placeat?</P>
+    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio perferendis non architecto quidem, laudantium magnam explicabo facilis libero! Molestiae magni temporibus aliquid hic deserunt ullam, incidunt quis asperiores explicabo repudiandae?</P>
+    <image src="img.jpg" alt="computer image" height="200" width="200"></image>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#form">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+        
+        </ul>
+    </nav>
+    <section>
+        <style>
+            table,th, td{
+                 border: solid; 
+                border-collapse: collapse;
+            }
+            td{
+                text-align: center;
+            }
+            /* image{ */
+                /* float: right; */
+            /* } */
+            th{ background-color: brown;}
+            /* tr:nth-child(even) {background-color: #878383;} */
+        </style>
+
+        <h1>Education</h1>
+        <table style="width: 100%;">
+            <th colspan="3"> Details</th>
+            <tr>
+                
+            <th>Courses</th>
+            <th>Institution</th>
+            <th>Year</th>
+        </tr>
+        
+        <tr>
+            <td>Higher Secondary</td>
+            <td>City Convent School</td>
+            <td>2018-19</td>
+
+        </tr>
+        <tr>
+            <td>Graduation Bsc</td>
+            <td>GDC</td>
+            <td>2020</td>
+
+        </tr>
+        <tr>
+            <td>Post Graduation</td>
+            <td>Sage University</td>
+            <td>2022-24</td>
+
+        </tr>
+        </table>
+    </section>
+    <section>
+        <h1>Hobbies and Skills</h1>
+        <ol type="1">
+            <li>singing</li>
+            <li>dancing</li>
+            <li>coding</li>
+        </ol>
+    </section><hr>
+    <section>
+        <h1>Form</h1>
+        <form id="form">
+            <fieldset>
+                <legend>Sample Form</legend>
+            <label for="fname">Firstname :</label>
+            <input type="text" id="fname" name="fname" placeholder="enter your firstname"><br>
+            <label for="lname">lastname :</label>
+            <input type="text" id="lname" name="lname" placeholder="enter your lastname"><br>
+            <label for="E-mail">E-mail :</label>
+            <input type="email" id="E-mail"  placeholder="enter your email"><br>
+            <label for="password">Password :</label>
+            <input type="password" id="password"  placeholder="enter your passsword"><br>
+            Gender:<label for="male">Male</label>
+             <input type="radio" name="gender"id="gender"value="Male">
+             <label for="female">Female</label>
+            <input type="radio" name="gender"id="female"value="Female"><br>
+            <label for="city">SELECT YOUR CITY</label>
+            <SELECT id="city" name="city">
+                <option value="Dewas">Dewas</option>
+                <option value="Dewas">Bhopal</option>
+                <option value="Dewas">Dehradun</option>
+            </SELECT><br><br>
+            
+            
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+            <input type="submit">
+            <br>
+            <textarea rows="6"column="6">enter your message</textarea><br>
+            <button type="button" onclick="alert('OOps!!! &#128514')">Submit</button>
+        </fieldset>
+
+        </form>
+    </section>
+    <section>
+        <h1>Audio and Video</h1>
+        <audio controls>
+            <source src="audio.mp3"type="audio/mp3">
+        </audio><hr>
+       Link:  <a href="https://www.wikipedia.org/">click to go to wikipedia</a>
+        <br>
+        <br>
+        <h2>Video</h2>
+        <iframe height="315"width="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"></iframe>
+    </section>
+    <section>
+        <h1>My location</h1>
+        <iframe style="width:100%"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1836.8384618053801!2d76.03330855808338!3d22.962122546245933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396317773700e411%3A0xb3e02e786dfc5286!2sChankyapuri%2C%20Raja%20Ram%20Nagar%2C%20Dewas%2C%20Madhya%20Pradesh%20455001!5e0!3m2!1sen!2sin!4v1676649466400!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+
+
+    
+</body>
+</html>
